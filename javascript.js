@@ -1,5 +1,5 @@
-function buttonMod() {
 
+function buttonMod() {
 }
 function buttonLB() {
 
@@ -21,7 +21,7 @@ function buttonSin() {
 
 }
 function button7() {
-
+    
 }
 function button8() {
 
