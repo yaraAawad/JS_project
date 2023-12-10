@@ -1,0 +1,53 @@
+/*color pallete 
+#435334
+
+*/
+body{
+    /* background-color: black;  */
+    vertical-align: center;
+    text-align: center;
+}
+.container1{
+    margin: auto;
+    display: inline-block;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFE8;
+    /* vertical-align: center; */
+}
+
+div button{
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: large;
+    cursor: pointer;
+    color: #F3EEEA;
+    background-color: #776B5D;
+    border-radius: 8px;
+}
+div button:hover{
+        background-color: #FFFFE8;
+        color: #776B5D;
+    
+}
+.display{
+    background-color: #fff;
+    color: aliceblue;
+    width: 355px;
+    height: 90px;
+    /* margin-left: 10px; */
+    display: inline-block;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #F3EEEA;
+    color: #776B5D;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.innerdiv
+{
+    display:flex;
+}

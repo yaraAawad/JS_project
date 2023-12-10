@@ -4,14 +4,55 @@
         <title>
             Yara's Calculator
         </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js"></script>
+
     </head>
     <body>
-        <div class="container">
-            <div class="display">
+        <div class="container1">
+            <div>
+                <input type="text" name="display" class="display">
+            </div>
+            <div class="innerdiv">
+                <button type="button"> % </button>
+                <button type="button"> ( </button>
+                <button type="button"> ) </button>
+                <button type="button"> Del </button>
+                <button type="button"> AC </button>
 
             </div>
-            <div>
-                <button type="button" class="btn btn-secondary"> 9 </button>
+        
+            <div class="innerdiv">
+                <button type="button">sin  </button>
+                <button type="button" onclick="display.value += '7'"> 7 </button>
+                <button type="button"> 8 </button>
+                <button type="button"> 9 </button>
+                <button type="button"> / </button>
+
+            </div>
+            <div class="innerdiv">
+                <button type="button"> cos </button>
+                <button type="button"> 4 </button>
+                <button type="button"> 5 </button>
+                <button type="button"> 6 </button>
+                <button type="button"> * </button>
+
+            </div>
+            <div class="innerdiv">
+                <button type="button"> tan </button>
+                <button type="button"> 1 </button>
+                <button type="button"> 2 </button>
+                <button type="button"> 3 </button>
+                <button type="button"> - </button>
+
+            </div>
+            <div  class="innerdiv">
+                <button type="button"> x^y </button>
+                <button type="button"> 0 </button>
+                <button type="button"> . </button>
+                <button type="button"> = </button>
+                <button type="button"> + </button>
+
             </div>
         </div>
     </body>
