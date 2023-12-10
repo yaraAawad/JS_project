@@ -16,6 +16,7 @@ function buttonAC() {
 
 
 
+
 function buttonSin() {
 
 }
@@ -77,6 +78,9 @@ function buttonPower() {
 
 }
 function button0() {
+
+}
+function buttonDot() {
 
 }
 function buttonEqual() {
