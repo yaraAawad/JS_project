@@ -26,6 +26,7 @@ div button{
     color: #F3EEEA;
     background-color: #776B5D;
     border-radius: 8px;
+    border: 1px solid black;
 }
 div button:hover{
         background-color: #FFFFE8;
@@ -47,6 +48,7 @@ div button:hover{
     margin-bottom: 10px;
     font-size: xx-large;
     text-align: end;
+    display:flex;
 
 }
 .innerdiv

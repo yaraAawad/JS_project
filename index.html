@@ -4,54 +4,54 @@
         <title>
             Yara's Calculator
         </title>
-        <link rel="stylesheet" href="style.css">
-        <script src="javascript.js"></script>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/javascript.js"></script>
 
     </head>
     <body>
         <div class="container1">
             <div>
-                <input type="text" name="display" class="display">
+                <input type="text" name="display" class="display" id="display" placeholder="0">
             </div>
             <div class="innerdiv">
-                <button type="button"> % </button>
-                <button type="button"> ( </button>
-                <button type="button"> ) </button>
-                <button type="button"> Del</button>
-                <button type="button"> AC </button>
+                <button type="button" onclick="display('%')"> % </button>
+                <button type="button" onclick="LB()"> ( </button>
+                <button type="button" onclick="RB()"> ) </button>
+                <button type="button" onclick="butttonDel()"> Del</button>
+                <button type="button" onclick="buttonClear()"> AC </button>
 
             </div>
         
             <div class="innerdiv">
-                <button type="button">sin  </button>
-                <button type="button" id="seven" onclick="button7"> 7 </button>
-                <button type="button"> 8 </button>
-                <button type="button"> 9 </button>
-                <button type="button"> / </button>
+                <button type="button" onclick="sin()">sin</button>
+                <button type="button"  onclick="display('7')"> 7 </button>
+                <button type="button" onclick="display('8')"> 8 </button>
+                <button type="button" onclick="display('9')"> 9 </button>
+                <button type="button" onclick="display('/')"> / </button>
 
             </div>
             <div class="innerdiv">
-                <button type="button"> cos </button>
-                <button type="button"> 4 </button>
-                <button type="button"> 5 </button>
-                <button type="button"> 6 </button>
-                <button type="button"> * </button>
+                <button type="button" onclick="cos()"> cos </button>
+                <button type="button" onclick="display('4')"> 4 </button>
+                <button type="button" onclick="display('5')"> 5 </button>
+                <button type="button" onclick="display('6')"> 6 </button>
+                <button type="button" onclick="display('*')"> * </button>
 
             </div>
             <div class="innerdiv">
-                <button type="button"> tan </button>
-                <button type="button"> 1 </button>
-                <button type="button"> 2 </button>
-                <button type="button"> 3 </button>
-                <button type="button"> - </button>
+                <button type="button" onclick="tan()"> tan </button>
+                <button type="button" onclick="display('1')"> 1 </button>
+                <button type="button" onclick="display('2')"> 2 </button>
+                <button type="button" onclick="display('3')"> 3 </button>
+                <button type="button" onclick="display('-')"> - </button>
 
             </div>
             <div  class="innerdiv">
                 <button type="button"> x^y </button>
-                <button type="button"> 0 </button>
-                <button type="button"> . </button>
-                <button type="button"> = </button>
-                <button type="button"> + </button>
+                <button type="button" onclick="display('0')"> 0 </button>
+                <button type="button" onclick="inputDecimal()"> . </button>
+                <button type="button" onclick="equal()"> = </button>
+                <button type="button" onclick="display('+')"> + </button>
 
             </div>
         </div>
