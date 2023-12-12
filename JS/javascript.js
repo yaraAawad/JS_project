@@ -38,8 +38,3 @@ function tan(){
     let x=document.getElementById('display')
     x.value=Math.tan(x.value)
 }
-function inputDecimal(dot) {
-    if (!displayValue.includes(dot)) {
-      calculator.displayValue += dot;
-    }
-  }
