@@ -5,6 +5,12 @@ function display(a) {
     let x=document.getElementById('display')
     x.value=x.value+a
 }
+function displayDot() {
+    let x=document.getElementById('display')
+    if(x.value[x.value.length-1] !='.'){
+        x.value=x.value+'.'
+    }
+}
 function LB() {
     let x=document.getElementById('display')
     x.value=x.value+'('
@@ -12,6 +18,9 @@ function LB() {
 function RB() {
     let x=document.getElementById('display')
     x.value=x.value+')'
+}
+function power(){
+    
 }
 function buttonClear() {
     let x=    document.getElementById('display')
