@@ -11,6 +11,36 @@ function displayDot() {
         x.value=x.value+'.'
     }
 }
+function displayPlus() {
+    let x=document.getElementById('display')
+    if(x.value[x.value.length-1] !='+'){
+        x.value=x.value+'+'
+    }
+}
+function displayMinus() {
+    let x=document.getElementById('display')
+    if(x.value[x.value.length-1] !='-'){
+        x.value=x.value+'-'
+    }
+}
+function displayMult() {
+    let x=document.getElementById('display')
+    if(x.value[x.value.length-1] !='*'){
+        x.value=x.value+'*'
+    }
+}
+function displayDiv() {
+    let x=document.getElementById('display')
+    if(x.value[x.value.length-1] !='/'){
+        x.value=x.value+'/'
+    }
+}
+function displayMod() {
+    let x=document.getElementById('display')
+    if(x.value[x.value.length-1] !='%'){
+        x.value=x.value+'%'
+    }
+}
 function LB() {
     let x=document.getElementById('display')
     x.value=x.value+'('
