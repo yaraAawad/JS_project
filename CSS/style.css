@@ -15,6 +15,7 @@ body{
     text-align: center;
     background-color: #FFFFE8;
     /* vertical-align: center; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 div button{
@@ -27,6 +28,8 @@ div button{
     background-color: #776B5D;
     border-radius: 8px;
     border: 1px solid black;
+    font-family:monospace;
+
 }
 div button:hover{
         background-color: #FFFFE8;
