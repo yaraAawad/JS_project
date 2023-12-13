@@ -19,8 +19,10 @@ function RB() {
     let x=document.getElementById('display')
     x.value=x.value+')'
 }
-function power(){
-    
+function power(a){
+    let x=document.getElementById('display')
+    x.value = Math.pow(x.value, 2);
+
 }
 function buttonClear() {
     let x=    document.getElementById('display')
